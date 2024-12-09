@@ -83,8 +83,6 @@ class easyExport():
                
             cmds.select(rootJoint, hi=True)    
             mel.eval('FBXResetExport')
-            #mel.eval('FBXExportSmoothingGroups -v false')
-            #mel.eval('FBXExportSmoothMesh -v false')
             mel.eval('FBXExportAnimationOnly -v false')
             mel.eval('FBXExportInputConnections -v false')
             mel.eval('FBXExportUpAxis y')
