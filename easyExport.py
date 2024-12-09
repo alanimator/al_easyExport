@@ -5,7 +5,7 @@ import maya.mel as mel
 
 '''
 v 1.1
-import easyExport 0.2
+import easyExport
 easyExport.startEasyExport()
 '''
 
